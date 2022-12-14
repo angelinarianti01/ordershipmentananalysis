@@ -1,0 +1,24 @@
+{
+  "name": "ordershipment",
+  "version": "1.0.0",
+  "description": "App to compare order shipping cost estimate with actual",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Angelina Rianti",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "config": "^3.3.8",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
